@@ -22,6 +22,7 @@
 ## 程式實作
 
 以下為主要程式碼：
+'''cpp
 #include <iostream>
 
 using namespace std;
@@ -66,6 +67,7 @@ int main()
 
     return 0;
 }
+'''
 ## 效能分析
 
 1. **時間複雜度：**程式的時間複雜度為 $O(n2^n)$。
