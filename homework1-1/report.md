@@ -26,6 +26,7 @@
 ## 程式實作
 
 以下為主要程式碼：
+```cpp
 #include <iostream>
 using namespace std;
 int AckermannRecursive(int m, int n)// 遞迴版本
@@ -83,6 +84,7 @@ int main()
     cout << "非遞迴結果：" << AckermannNonRecursive(m, n) << endl;
     return 0;
 }
+```
 ## 效能分析
 
 1. **時間複雜度：**程式的時間複雜度為 $O(A(m,n))$。
