@@ -90,7 +90,7 @@ $$
 使用者選擇功能後，程式會執行對應的函式，完成後回到選單，直到使用者選擇結束程式。
 
 ## 程式實作
-
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <cmath>
