@@ -575,10 +575,38 @@ int main() {
 
 ### 3. 編譯與執行指令
 
+
+### 3. 編譯與執行指令
+
 ```shell
-g++ main.cpp -o polynomial
-./polynomial
+$ g++ -std=c++17 -o polynomial main.cpp
+$ ./polynomial
+
+請輸入多項式 A 的項數、係數及指數：
+3
+3 2
+2 1
+1 0
+
+請輸入多項式 B 的項數、係數及指數：
+3
+2 2
+4 1
+3 0
+
+========== Polynomial Menu ==========
+1. 顯示 A、B
+2. A + B
+3. A * B
+4. 計算 A(x)
+5. 計算 B(x)
+6. 重新輸入 A
+7. 重新輸入 B
+0. 結束程式
+
+請選擇功能：
 ```
+
 
 
 
