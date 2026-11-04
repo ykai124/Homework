@@ -575,9 +575,6 @@ int main() {
 
 ### 3. 編譯與執行指令
 
-
-### 3. 編譯與執行指令
-
 ```shell
 $ g++ -std=c++17 -o polynomial main.cpp
 $ ./polynomial
